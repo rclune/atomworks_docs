@@ -15,50 +15,50 @@ jobs:
       pull-requests: write
       id-token: write
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install Python build dependencies
-        run: |
-          pip install build twine
-
-      - name: Build Python package
-        run: python -m build
-
-      - name: Install Node dependencies
-        run: >
-          npm install --no-save
-          semantic-release
-          @semantic-release/commit-analyzer
-          @semantic-release/release-notes-generator
-          semantic-release-pypi
-          @semantic-release/git
-          @semantic-release/github
-
-      - name: Run semantic-release
-        id: release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN_PROD }}
-          PYPI_REPO_URL: https://upload.pypi.org/legacy/
-        run: |
-          npx semantic-release
-          VERSION=$(git describe --tags --abbrev=0 --match "v*" 2>/dev/null || echo "no-version")
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "Released version: $VERSION"
+    #steps:
+    #  - name: Checkout repository
+    #    uses: actions/checkout@v4
+    #    with:
+    #      fetch-depth: 0
+    #
+    #  - name: Set up Node.js
+    #    uses: actions/setup-node@v4
+    #    with:
+    #      node-version: '20'
+    #
+    #  - name: Set up Python
+    #    uses: actions/setup-python@v5
+    #    with:
+    #      python-version: "3.12"
+    #
+    #  - name: Install Python build dependencies
+    #    run: |
+    #      pip install build twine
+    #
+    #  - name: Build Python package
+    #    run: python -m build
+    #
+    #  - name: Install Node dependencies
+    #    run: >
+    #      npm install --no-save
+    #      semantic-release
+    #      @semantic-release/commit-analyzer
+    #      @semantic-release/release-notes-generator
+    #      semantic-release-pypi
+    #      @semantic-release/git
+    #      @semantic-release/github
+    #
+    #  - name: Run semantic-release
+    #    id: release
+    #    env:
+    #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #      PYPI_TOKEN: ${{ secrets.PYPI_TOKEN_PROD }}
+    #      PYPI_REPO_URL: https://upload.pypi.org/legacy/
+    #    run: |
+    #      npx semantic-release
+    #      VERSION=$(git describe --tags --abbrev=0 --match "v*" 2>/dev/null || echo "no-version")
+    #      echo "version=$VERSION" >> $GITHUB_OUTPUT
+    #      echo "Released version: $VERSION"
 
       - name: Build documentation
         run: |
