@@ -62,7 +62,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          pip install -e ".[ml,dev]"
+          #pip install -e ".[ml,dev]"
           cd docs/
           pip install -r docs_requirements.txt
           make html
