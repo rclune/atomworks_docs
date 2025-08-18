@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:05.533** total execution time for 2 files **from all galleries**:
+**00:02.543** total execution time for 2 files **from all galleries**:
 
 .. container::
 
@@ -33,8 +33,8 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_auto_examples_plot_monomer.py` (``examples/plot_monomer.py``)
-     - 00:05.076
+     - 00:01.810
      - 0.0
    * - :ref:`sphx_glr_auto_examples_plot_basics.py` (``examples/plot_basics.py``)
-     - 00:00.457
+     - 00:00.733
      - 0.0

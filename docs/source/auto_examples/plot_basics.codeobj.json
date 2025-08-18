@@ -1,0 +1,414 @@
+{
+ "assembly": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "assembly.atom_name": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "assembly.bonds.as_array": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "BondList.as_array"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "BondList.as_array"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "Copyable.as_array"
+  }
+ ],
+ "assembly.chain_id": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "assembly.occupancy": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "asym_unit": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "asym_unit.occupancy": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "ca": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "ca.coord": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "ca.coord.shape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "cell_list": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "CellList"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "CellList"
+  }
+ ],
+ "cell_list.get_atoms": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "CellList.get_atoms"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "CellList.get_atoms"
+  }
+ ],
+ "chain": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "chain.coord.shape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "distance": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "get_example_path_or_buffer": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "get_pdb_path": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io.utils.testing",
+   "module_short": "atomworks.io.utils.testing",
+   "name": "get_pdb_path"
+  }
+ ],
+ "io.StringIO": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "StringIO"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "_TextIOBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "_IOBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "io",
+   "module_short": "io",
+   "name": "StringIO"
+  }
+ ],
+ "near_atoms": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "near_atoms.shape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "parse": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io",
+   "module_short": "atomworks",
+   "name": "parse"
+  }
+ ],
+ "rcsb.fetch": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.database.rcsb",
+   "module_short": "biotite.database.rcsb",
+   "name": "fetch"
+  }
+ ],
+ "resolved_atom_array": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "resolved_atom_array.chain_id": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "resolved_atom_array.res_id": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "resolved_atom_array.res_name": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "result_dict": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  }
+ ],
+ "result_dict.keys": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  }
+ ],
+ "struc.CellList": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "CellList"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "CellList"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "CellList"
+  }
+ ],
+ "struc.distance": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "distance"
+  }
+ ],
+ "view": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io.utils.visualize",
+   "module_short": "atomworks.io.utils.visualize",
+   "name": "view"
+  }
+ ]
+}

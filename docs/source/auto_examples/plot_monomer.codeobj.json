@@ -1,0 +1,176 @@
+{
+ "atom_array": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray"
+  }
+ ],
+ "atom_array.array_length": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "AtomArray.array_length"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "AtomArray.array_length"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.structure",
+   "module_short": "biotite.structure",
+   "name": "_AtomArrayBase.array_length"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "_AtomArrayBase.array_length"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite",
+   "module_short": "biotite",
+   "name": "Copyable.array_length"
+  }
+ ],
+ "atom_array.chain_id": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "example": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "StringIO"
+  }
+ ],
+ "get_example_path_or_buffer": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "get_pdb_path": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io.utils.testing",
+   "module_short": "atomworks.io.utils.testing",
+   "name": "get_pdb_path"
+  }
+ ],
+ "io.StringIO": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "StringIO"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "_TextIOBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "_io",
+   "module_short": "_io",
+   "name": "_IOBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "io",
+   "module_short": "io",
+   "name": "StringIO"
+  }
+ ],
+ "load_any": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io.utils.io_utils",
+   "module_short": "atomworks.io.utils.io_utils",
+   "name": "load_any"
+  }
+ ],
+ "rcsb.fetch": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "biotite.database.rcsb",
+   "module_short": "biotite.database.rcsb",
+   "name": "fetch"
+  }
+ ],
+ "view": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "atomworks.io.utils.visualize",
+   "module_short": "atomworks.io.utils.visualize",
+   "name": "view"
+  }
+ ]
+}
